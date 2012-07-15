@@ -5,10 +5,10 @@ lib/Foswiki/Contrib/TwitterBootstrapContrib/Config.spec
 lib/Foswiki/Contrib/TwitterBootstrapContrib.pm
 lib/Foswiki/Contrib/TwitterBootstrapContrib/TWITTERBOOTSTRAP.pm 0644 JQuery Plugin stub
 pub/System/TwitterBootstrapContrib/bootstrap/img/glyphicons-halflings-white.png
-pub/TwitterBootstrapContrib/bootstrap/img/glyphicons-halflings.png
-pub/TwitterBootstrapContrib/bootstrap/css/bootstrap.min.css
-pub/TwitterBootstrapContrib/bootstrap/css/bootstrap-responsive.min.css
-pub/TwitterBootstrapContrib/bootstrap/css/bootstrap.css
-pub/TwitterBootstrapContrib/bootstrap/css/bootstrap-responsive.css
-pub/TwitterBootstrapContrib/bootstrap/js/bootstrap.js
-pub/TwitterBootstrapContrib/bootstrap/js/bootstrap.min.js
+pub/System/TwitterBootstrapContrib/bootstrap/img/glyphicons-halflings.png
+pub/System/TwitterBootstrapContrib/bootstrap/css/bootstrap.min.css
+pub/System/TwitterBootstrapContrib/bootstrap/css/bootstrap-responsive.min.css
+pub/System/TwitterBootstrapContrib/bootstrap/css/bootstrap.css
+pub/System/TwitterBootstrapContrib/bootstrap/css/bootstrap-responsive.css
+pub/System/TwitterBootstrapContrib/bootstrap/js/bootstrap.js
+pub/System/TwitterBootstrapContrib/bootstrap/js/bootstrap.min.js
