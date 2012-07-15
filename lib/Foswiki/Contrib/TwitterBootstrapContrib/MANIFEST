@@ -12,3 +12,4 @@ pub/System/TwitterBootstrapContrib/bootstrap/css/bootstrap.css
 pub/System/TwitterBootstrapContrib/bootstrap/css/bootstrap-responsive.css
 pub/System/TwitterBootstrapContrib/bootstrap/js/bootstrap.js
 pub/System/TwitterBootstrapContrib/bootstrap/js/bootstrap.min.js
+templates/foswiki.bootstrapeg.tmpl

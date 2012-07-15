@@ -1,0 +1,221 @@
+%TMPL:DEF{notusedyet}%
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    %TMPL:P{"windowtitle"}%
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+
+
+
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Sidebar</li>
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="nav-header">Sidebar</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="nav-header">Sidebar</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+          <div class="hero-unit">
+            <h1>Hello, world!</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+          </div>
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+
+%TMPL:END%
+
+
+
+
+
+
+%TMPL:INCLUDE{"foswiki"}%
+
+%{ **************************************************************************************************************************************************************************** }%
+%{ ******************************************* }%
+%TMPL:DEF{"simpleheader"}%%TMPL:P{"standardheader"}%%TMPL:END%
+%{ ******************************************* }%
+%TMPL:DEF{"windowtitle"}%<title>%TMPL:P{"titleaction"}%%IF{"defined PAGETITLE" then="%PAGETITLE%" else="<nop>%TOPIC% &lt; %WEB% &lt; <nop>%WIKITOOLNAME%"}%</title>%TMPL:END%
+%{ ******************************************* }%
+%TMPL:DEF{"copyright"}% %WEBRSSCOPYRIGHT% %BR% skin by <a href="http://fosiki.com">fosiki</a> %TMPL:END%
+%{ ******************************************* }%
+%TMPL:DEF{"topicinfo"}%%TMPL:P{context="authenticated" then="topicinfo_authed" else="topicinfo_unauthed"}%%TMPL:END%
+%TMPL:DEF{"topicinfo_authed"}%<div class="foswikiTopicInfo navbar navbar-fixed-bottom" style="background: darkgrey; text-align: center; padding: 6px;">%TMPL:P{"topicaction"}%</div>%TMPL:END%
+%{ ******************************************* }%
+%TMPL:DEF{"sep"}% &#8226; %TMPL:END%
+%{ ******************************************* }%
+%TMPL:DEF{"user_unauthed"}%
+              <li><a href="%LOGINURL%?skin=bootstrapeg">Login</a></li>
+%TMPL:END%
+%TMPL:DEF{"user_authed"}%
+              <li><a href="%SCRIPTURL{view}%/%USERSWEB%/%WIKINAME%">Profile</a></li>
+              <li class="divider"></li>
+              <li><a href="%LOGOUTURL%">Sign Out</a></li>
+%TMPL:END%
+   
+%{ **************************************************************************************************************************************************************************** }%
+%{ ******************************************* }%
+%TMPL:DEF{"bodystart"}%<body class="layout-%TMPL:P{widgetscolumns}% %IF{"context authenticated" then="authenticated"}% %IF{"context view" then="view"}% %IF{"'%BASEWEB%.%BASETOPIC%' allows 'CHANGE'" then="foswikiCanChangeBaseTopic"}%">
+<style>.foswikiMain {padding-top: 36px;}</style>
+%JQREQUIRE{bootstrap}%%TMPL:END%
+%{ ******************************************* }%
+%TMPL:DEF{"standardheader"}%
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+  <div class="btn-group pull-right">
+    <a class="btn" href="%SCRIPTURL{view}%/%USERSWEB%/%WIKINAME%" title="Profile Topic">
+       <i class="icon-user"></i> %NOP%%WIKINAME%
+    </a>
+    <a class="btn dropdown-toggle" data-toggle="dropdown" href="%SCRIPTURL{view}%/%USERSWEB%/%WIKINAME%">
+      . <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        %TMPL:P{context="authenticated" then="user_authed" else="user_unauthed"}%
+    </ul>
+  </div>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  %WIKITOOLNAME%
+                      <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+%WEBLIST{"<li><span style=\"white-space:nowrap\"><a href=\"%SCRIPTURLPATH{"view"}%/$name/%HOMETOPIC%\"><img src=\"%ICONURL{web-bg}%\" border=\"0\" alt=\"\" width=\"16\" height=\"16\" style=\"background-color:%$markerVAR{\"WEBBGCOLOR\" web=$qname}$marker%\" />&nbsp;<nop>$indentedname</a></span></li>"}%                          
+                </ul>
+              </li>   
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      %BASEWEB%
+                      <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                          %INCLUDE{"%BASEWEB%.WebLeftBarExample,%USERSWEB%.WebLeftBarExample" section="topics"}%
+                </ul>
+              </li>            
+              <li class="active"><a href="%SCRIPTURL{view}%/%BASEWEB%.%BASETOPIC%">%BASETOPIC%</a></li>
+            </ul>
+            <form class="navbar-search pull-right" action="%SCRIPTURLPATH{view}%/%BASEWEB%/WebSearch">
+              <input type="text" class="search-query" placeholder="Search" name="search">
+all webs <input type='checkbox' class='foswikiCheckbox' id='web' name='web' value='all' %IF{
+	"'%URLPARAM{web}%'='all'"
+	then="checked='checked'"
+}% />
+            </form>            
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+          <div class="row-fluid">
+          <div class="page-header NOhero-unit">
+%TMPL:END%
+	
+	
+%{ ******************************************* }%
+
+%{ ******************************************* }%
+%TMPL:DEF{"standardfooter"}%
+    </div>
+    </div>
+    </div><!--/.fluid-container-->
+	</span><!-- wiki_text -->
+      <footer>
+        <p>%TMPL:P{"copyright"}%</p>
+      </footer>%TMPL:END%
+%{ ******************************************* }%
+%TMPL:DEF{"bodyend"}%
+  </body>
+</html>
+ %TMPL:END%
+

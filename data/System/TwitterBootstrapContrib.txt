@@ -8,12 +8,20 @@ One line description, required for extensions repository catalog.
 
 %TOC%
 
-%JQREQUIRE{bootstrap}%
-
 ---++ twitter bootstrap v2.0.4
 package up [[http://twitter.github.com/bootstrap/][twitter bootstrap]]
 
-the simplest way to add the bootstrap javascript and css, is to add =%JQREQUIRE{bootstrap}%= to your skin or topic.
+the simplest way to add the bootstrap javascript and css, is to add =%<nop>JQREQUIRE{bootstrap}%= to your skin or topic.
+
+for example, see the [[%SCRIPTURL{view}%/%BASEWEB%.%BASETOPIC%?skin=bootstrapeg][example bootstrap skin]].
+
+<form name="new" action="%SCRIPTURLPATH{save}%/%USERSWEB%/%WIKINAME%" method="post">
+<input type="hidden" name="Set+SKIN" value="famfamfam,bootstrapeg" />
+<input type="submit" value="set bootstrapeg skin for the %NOP%%WIKINAME% user" %IF{
+                "context 'authenticated'" 
+                else="disabled"
+        }%/>
+</form>
 
 ---++ Installation
 %$INSTALL_INSTRUCTIONS%
