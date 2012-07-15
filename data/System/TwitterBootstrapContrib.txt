@@ -13,6 +13,8 @@ One line description, required for extensions repository catalog.
 ---++ twitter bootstrap v2.0.4
 package up [[http://twitter.github.com/bootstrap/][twitter bootstrap]]
 
+the simplest way to add the bootstrap javascript and css, is to add =%JQREQUIRE{bootstrap}%= to your skin or topic.
+
 ---++ Installation
 %$INSTALL_INSTRUCTIONS%
 
