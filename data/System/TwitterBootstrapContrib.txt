@@ -2,11 +2,13 @@
 One line description, required for extensions repository catalog.
    * Set SHORTDESCRIPTION = twitter bootstrap
 -->
----+!! 'TwitterBootstrapContrib'
+---+!! TwitterBootstrapContrib
 
 %SHORTDESCRIPTION%
 
 %TOC%
+
+%JQREQUIRE{bootstrap}%
 
 ---++ twitter bootstrap v2.0.4
 package up [[http://twitter.github.com/bootstrap/][twitter bootstrap]]

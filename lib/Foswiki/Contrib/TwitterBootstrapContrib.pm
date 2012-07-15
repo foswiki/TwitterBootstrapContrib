@@ -2,14 +2,14 @@
 
 =begin TML
 
----+ package Foswiki::Contrib::'TwitterBootstrapContrib'
+---+ package Foswiki::Contrib::TwitterBootstrapContrib
 
 This is a stub module for a new contrib. Customise this module as
 required. 
 
 =cut
 
-package Foswiki::Contrib::'TwitterBootstrapContrib ';
+package Foswiki::Contrib::TwitterBootstrapContrib;
 
 # Always use strict to enforce variable scoping
 use strict;
