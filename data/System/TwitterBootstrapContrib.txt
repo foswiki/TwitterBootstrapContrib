@@ -48,7 +48,8 @@ for example, see the [[%SCRIPTURL{view}%/%BASEWEB%.%BASETOPIC%?skin=bootstrapeg]
 twitter bootstrap 2.0.4 is included (and is the basis for) this Contrib.
 ---+++ Bootswatch themes
 the free themes from http://bootswatch.com are in this Contrib, and the simplex theme has been hardcoded (for now)
-
+---+++ Font Awesome
+added the css version of http://fortawesome.github.com/Font-Awesome/
 ---++ Info
 
 |  Author: | SvenDowideit |
