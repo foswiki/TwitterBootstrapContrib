@@ -157,7 +157,7 @@
        <i class="icon-user"></i> %NOP%%WIKINAME%
     </a>
     <a class="btn dropdown-toggle" data-toggle="dropdown" href="%SCRIPTURL{view}%/%USERSWEB%/%WIKINAME%">
-      . <span class="caret"></span>
+      &nbsp; <span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
         %TMPL:P{context="authenticated" then="user_authed" else="user_unauthed"}%
@@ -167,7 +167,7 @@
             <ul class="nav">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  %WIKITOOLNAME%
+                   <span class="not_brand">%NOP%%WIKITOOLNAME%</span>
                       <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu">

@@ -23,8 +23,31 @@ for example, see the [[%SCRIPTURL{view}%/%BASEWEB%.%BASETOPIC%?skin=bootstrapeg]
         }%/>
 </form>
 
+---++ Todo
+   * https://github.com/addyosmani/jquery-ui-bootstrap/
+   * http://fortawesome.github.com/Font-Awesome/
+   * http://ckrack.github.com/fbootstrapp/
+   * http://www.thetutlage.com/post=TUT159
+   * http://ajkochanowicz.github.com/Kickstrap/
+   * http://builtwithbootstrap.com/
+   * http://www.boottheme.com/
+   * http://dribbble.com/sacha/projects/32370-Bootstrap-Themes
+      * http://sachagreif.com/bootstrap/
+   * http://glyphicons.com/
+   * http://stylebootstrap.info/
+   * https://wrapbootstrap.com/
+   * http://bootswatch.com 
+      * =curl http://api.bootswatch.com | sed 's/,/\n/g' | grep '"css"' | sed 's/"css":"/curl /' | sed 's/com\/\(.*\)\/bootstrap.css"$/com\/\1\/bootstrap.css > \1.css/' | sh=
+=
+
 ---++ Installation
 %$INSTALL_INSTRUCTIONS%
+
+---++ Attributions:
+---+++ Twitter Bootstrap
+twitter bootstrap 2.0.4 is included (and is the basis for) this Contrib.
+---+++ Bootswatch themes
+the free themes from http://bootswatch.com are in this Contrib, and the simplex theme has been hardcoded (for now)
 
 ---++ Info
 

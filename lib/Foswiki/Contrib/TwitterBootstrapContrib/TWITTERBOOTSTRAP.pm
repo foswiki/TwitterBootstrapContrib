@@ -22,7 +22,9 @@ sub new {
         documentation => "$Foswiki::cfg{SystemWebName}.TwitterBootstrapContrib",
         summary       => $Foswiki::Contrib::TwitterBootstrapContrib::SHORTDESCRIPTION,
         javascript    => [ "js/bootstrap.min.js" ],
-        css    => [ "css/bootstrap.min.css", "css/bootstrap-responsive.min.css" ]
+#        css    => [ "css/bootstrap.min.css", "css/bootstrap-responsive.min.css" ]
+#I wonder how to make this list JQREQUIRE param / preference / urlparam based..
+        css    => [ "css/bootstrap-responsive.min.css", "../bootswatch/simplex.min.css" ]
         );
     
     return $this;
