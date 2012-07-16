@@ -154,10 +154,11 @@
           </a>
   <div class="btn-group pull-right">
     <a class="btn" href="%SCRIPTURL{view}%/%USERSWEB%/%WIKINAME%" title="Profile Topic">
-       <i class="icon-user"></i> %NOP%%WIKINAME%
+       %NOP%%WIKINAME%
     </a>
     <a class="btn dropdown-toggle" data-toggle="dropdown" href="%SCRIPTURL{view}%/%USERSWEB%/%WIKINAME%">
-      &nbsp; <span class="caret"></span>
+      <i class="icon-user"></i>
+      <span class="caret"></span>
     </a>
     <ul class="dropdown-menu">
         %TMPL:P{context="authenticated" then="user_authed" else="user_unauthed"}%
@@ -167,7 +168,7 @@
             <ul class="nav">
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                   <span class="not_brand">%NOP%%WIKITOOLNAME%</span>
+                   <span class="not_brand">%ICON{button-green}% %NOP%%WIKITOOLNAME%</span>
                       <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu">
