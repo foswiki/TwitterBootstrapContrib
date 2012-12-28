@@ -8,7 +8,7 @@ One line description, required for extensions repository catalog.
 
 %TOC%
 
----++ twitter bootstrap v2.0.4
+---++ twitter bootstrap v2.2.2
 package up [[http://twitter.github.com/bootstrap/][twitter bootstrap]]
 
 the simplest way to add the bootstrap javascript and css, is to add =%<nop>JQREQUIRE{bootstrap}%= to your skin or topic.
@@ -45,7 +45,7 @@ for example, see the [[%SCRIPTURL{view}%/%BASEWEB%.%BASETOPIC%?skin=bootstrapeg]
 
 ---++ Attributions:
 ---+++ Twitter Bootstrap
-twitter bootstrap 2.0.4 is included (and is the basis for) this Contrib.
+twitter bootstrap 2.2.2 is included (and is the basis for) this Contrib.
 ---+++ Bootswatch themes
 the free themes from http://bootswatch.com are in this Contrib, and the simplex theme has been hardcoded (for now)
 ---+++ Font Awesome
@@ -58,6 +58,7 @@ added the css version of http://fortawesome.github.com/Font-Awesome/
 |  Dependencies: | %$DEPENDENCIES% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  2.2.0 (28 Dec 2012): | update to bootstrap 2.2.2 |
 |  1.0.0 (15 Jul 2012): | Initial version |
 |  Home: | http://foswiki.org/Extensions/%TOPIC% |
 |  Support: | http://foswiki.org/Support/%TOPIC% |
