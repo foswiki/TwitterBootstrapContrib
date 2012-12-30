@@ -38,7 +38,7 @@ for example, see the [[%SCRIPTURL{view}%/%BASEWEB%.%BASETOPIC%?skin=bootstrapeg]
    * https://wrapbootstrap.com/
    * http://bootswatch.com 
       * =curl http://api.bootswatch.com | sed 's/,/\n/g' | grep '"css"' | sed 's/"css":"/curl /' | sed 's/com\/\(.*\)\/bootstrap.css"$/com\/\1\/bootstrap.css > \1.css/' | sh=
-=
+      * or when the api server is down: =ls *.min.css | sed 's/^\(.*\).min.css/curl http:\/\/bootswatch.com\/\1\/bootstrap.min.css > \1.min.css/' | sh=
 
 ---++ Installation
 %$INSTALL_INSTRUCTIONS%
