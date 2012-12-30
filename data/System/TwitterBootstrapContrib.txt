@@ -24,7 +24,7 @@ for example, see the [[%SCRIPTURL{view}%/%BASEWEB%.%BASETOPIC%?skin=bootstrapeg]
 </form>
 
 ---++ Todo
-   * https://github.com/addyosmani/jquery-ui-bootstrap/
+   * http://bootsnipp.com/resources
    * http://fortawesome.github.com/Font-Awesome/
    * http://ckrack.github.com/fbootstrapp/
    * http://www.thetutlage.com/post=TUT159
@@ -50,6 +50,8 @@ twitter bootstrap 2.2.2 is included (and is the basis for) this Contrib.
 the free themes from http://bootswatch.com are in this Contrib, and the simplex theme has been hardcoded (for now)
 ---+++ Font Awesome
 added the css version of http://fortawesome.github.com/Font-Awesome/
+---+++ bootstrap jquery-ui css
+added https://github.com/addyosmani/jquery-ui-bootstrap/
 ---++ Info
 
 |  Author: | SvenDowideit |
