@@ -13,6 +13,7 @@ pub/System/TwitterBootstrapContrib/bootstrap/css/bootstrap-responsive.css
 pub/System/TwitterBootstrapContrib/bootstrap/js/bootstrap.js
 pub/System/TwitterBootstrapContrib/bootstrap/js/bootstrap.min.js
 templates/foswiki.bootstrapeg.tmpl
+templates/viewtopicactionbuttons.bootstrapeg.tmpl
 pub/System/TwitterBootstrapContrib/bootswatch/spruce.min.css
 pub/System/TwitterBootstrapContrib/bootswatch/united.min.css
 pub/System/TwitterBootstrapContrib/bootswatch/readable.min.css
