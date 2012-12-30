@@ -139,7 +139,7 @@
    
 %{ **************************************************************************************************************************************************************************** }%
 %{ ******************************************* }%
-%TMPL:DEF{"bodystart"}%<body class="layout-%TMPL:P{widgetscolumns}% %IF{"context authenticated" then="authenticated"}% %IF{"context view" then="view"}% %IF{"'%BASEWEB%.%BASETOPIC%' allows 'CHANGE'" then="foswikiCanChangeBaseTopic $percntJQREQUIRE{\"hallojs\" warn=\"off\"}$percnt"}%">
+%TMPL:DEF{"bodystart"}%<body class="layout-%TMPL:P{widgetscolumns}% %IF{"context authenticated" then="authenticated"}% %IF{"context view" then="view"}% %IF{"'%BASEWEB%.%BASETOPIC%' allows 'CHANGE'" then="foswikiCanChangeBaseTopic "}%">
 <style>.foswikiMain {padding-top: 36px;}</style>
 %JQREQUIRE{bootstrap}%%TMPL:END%
 %{ ******************************************* }%
