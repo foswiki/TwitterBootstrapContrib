@@ -137,6 +137,7 @@
     </a>
     <ul class="dropdown-menu">
               <li><a href="%SCRIPTURL{view}%/%USERSWEB%/%WIKINAME%">Profile</a></li>
+              <li><a href="%SCRIPTURL{view}%/%USERSWEB%/%WIKINAME%">Subscriptions</a></li>
               <li class="divider"></li>
               <li><a href="%LOGOUTURL%">Sign Out</a></li>
     </ul>
@@ -144,15 +145,13 @@
    
 %{ **************************************************************************************************************************************************************************** }%
 %TMPL:DEF{"topicinfo"}%%TMPL:P{context="authenticated" then="topicinfo_authed" else="topicinfo_unauthed"}%%TMPL:END%
-%TMPL:DEF{"topicinfo_authed"}%<div class="foswikiTopicInfo navbar navbar-fixed-bottom" nstyle="background: darkgrey; text-align: center; padding: 6px;">
-  <div class="navbar-inner">
-    <ul class="nav">
-      <li>%TMPL:P{"topicaction"}%</li>
-    </ul>
+%TMPL:DEF{"topicinfo_authed"}%<div class="foswikiTopicInfo NOnavbar navbar-fixed-bottom" style="text-align: right;">
+  <div class="NOnavbar-inner">
+      <span class="btn btn-mini">%TMPL:P{"topicaction"}%</span>
   </div>
 </div>%TMPL:END%
 %{ ******************************************* }%
-%TMPL:DEF{"sep"}% </li><li> %TMPL:END%
+%TMPL:DEF{"sep"}% </span><span class="btn btn-mini"> %TMPL:END%
 %{ ******************************************* }%
 %TMPL:DEF{"bodystart"}%<body class="layout-%TMPL:P{widgetscolumns}% %IF{"context authenticated" then="authenticated"}% %IF{"context view" then="view"}% %IF{"'%BASEWEB%.%BASETOPIC%' allows 'CHANGE'" then="foswikiCanChangeBaseTopic "}%">
 <style>.foswikiMain {padding-top: 36px;} .navbar-fixed-top .brand {padding-left:44px;background: no-repeat url(%PUBURL%/%SYSTEMWEB%/ProjectLogos/foswiki-logo-icon.png)}</style>
