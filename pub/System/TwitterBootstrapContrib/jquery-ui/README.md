@@ -21,11 +21,23 @@ There *are* some minor known issues lingering that I'm working on, but the hope 
 
 ##jQuery UI support
 
-This theme targets jQuery UI 1.8.16 and the default version of jQuery included in the (current) jQuery UI builds (jQuery 1.6.2). I'm aware of jQuery 1.7.1 and intend on upgrading anything necessary in the theme to use it when the jQuery UI team officially include it in their theme packs.
+This theme targets jQuery UI 1.9.0 and the default version of jQuery included in the (current) jQuery UI builds (jQuery 1.6.2). I'm aware of jQuery 1.8.2 and intend on upgrading anything necessary in the theme to use it when the jQuery UI team officially include it in their theme packs.
 
+##Project status
+
+This project is under active, but slow development. There has been a great deal
+of work done in branches to introduce compatibility with jQuery UI 1.9 and further
+work done to move us towards using LESS and improved parity with Bootstrap 2.x.
+
+At this time, I am seeking contributors interested in helping us finally complete
+the work needed to be Bootstrap 2.x compatible. This would involve helping in your
+spare time across a few weeks and you would be given credit in the project README.
+
+As one of the (currently) more popular open-source jQuery UI themes I would love to
+get out a new release sometime soon and your help with this would be greatly appreciated.
 
 ##Demo
 
-For a live preview of the theme, see [http://addyosmani.github.com/jquery-ui-bootstrap](http://addyosmani.github.com/jquery-ui-bootstrap).
+For a live preview of the current theme, see [http://addyosmani.github.com/jquery-ui-bootstrap](http://addyosmani.github.com/jquery-ui-bootstrap).
 
 A [blog post](http://addyosmani.com/blog/jquery-ui-bootstrap/) with some more details about the project is also available.
