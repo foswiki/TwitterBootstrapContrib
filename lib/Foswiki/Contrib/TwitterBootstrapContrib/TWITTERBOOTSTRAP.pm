@@ -24,7 +24,7 @@ sub new {
         javascript    => [ "js/bootstrap.min.js" ],
 #        css    => [ "css/bootstrap.min.css", "css/bootstrap-responsive.min.css" ]
 #I wonder how to make this list JQREQUIRE param / preference / urlparam based..
-        css    => [ "css/bootstrap-responsive.min.css", "../bootswatch/spacelab.min.css", '../FontAwesome/css/font-awesome.css' ]
+        css    => [ "css/bootstrap-responsive.min.css", "../bootswatch/flatly.min.css", '../FontAwesome/css/font-awesome.css' ]
         );
     
     return $this;

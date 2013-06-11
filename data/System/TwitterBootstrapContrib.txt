@@ -8,7 +8,7 @@ One line description, required for extensions repository catalog.
 
 %TOC%
 
----++ twitter bootstrap v2.2.2
+---++ twitter bootstrap v2.3.2
 package up [[http://twitter.github.com/bootstrap/][twitter bootstrap]]
 
 the simplest way to add the bootstrap javascript and css, is to add =%<nop>JQREQUIRE{bootstrap}%= to your skin or topic.
@@ -45,9 +45,9 @@ for example, see the [[%SCRIPTURL{view}%/%BASEWEB%.%BASETOPIC%?skin=bootstrapeg]
 
 ---++ Attributions:
 ---+++ Twitter Bootstrap
-twitter bootstrap 2.2.2 is included (and is the basis for) this Contrib.
+twitter bootstrap 2.3.2 is included (and is the basis for) this Contrib.
 ---+++ Bootswatch themes
-the free themes from http://bootswatch.com are in this Contrib, and the simplex theme has been hardcoded (for now)
+the free themes from http://bootswatch.com are in this Contrib, the theme has been hardcoded (for now)
 ---+++ Font Awesome
 added the css version of http://fortawesome.github.com/Font-Awesome/
 ---+++ bootstrap jquery-ui css
@@ -55,11 +55,12 @@ added https://github.com/addyosmani/jquery-ui-bootstrap/
 ---++ Info
 
 |  Author: | SvenDowideit |
-|  Copyright &copy;: | 2012, http://fosiki.com - SvenDowideit@fosiki.com |
+|  Copyright &copy;: | 2012-2013, http://fosiki.com - SvenDowideit@fosiki.com |
 |  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
 |  Dependencies: | %$DEPENDENCIES% |
 |  Version: | %$VERSION% |
 |  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  2.3.2 (10 Jun 2013): | update to bootstrap 2.3.2 and add/update bootswatch |
 |  2.2.0 (28 Dec 2012): | update to bootstrap 2.2.2 |
 |  1.0.0 (15 Jul 2012): | Initial version |
 |  Home: | http://foswiki.org/Extensions/%TOPIC% |
